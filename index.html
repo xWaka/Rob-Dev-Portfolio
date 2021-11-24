@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rob Lee</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <ul>
+          <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu();">About</a></li>
+          <li><a href="#project" onclick="toggleMenu();">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+      </div>
+      <div class="main">
+        <div class="topbar">
+          <a href="#" class="logo"><img src="images/RobLee logo sm1.png" /></a>
+          <div class="toggle">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <!-- banner -->
+        <section class="banner" id="banner">
+          <div class="content">
+            <div class="imgBx">
+              <img src="images/333 Rob.png" />
+            </div>
+            <h3>Rob Lee</h3>
+            <p>I'm a Creative Front End Web Developer.</p>
+            <a href="#" class="btn">Download My CV</a>
+            <ul class="socialMedia">
+              <li>
+                <a href="https://twitter.com/Rlee232" target="_blank"
+                  ><i class="fa fa-twitter" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/robert-lee23/"
+                  ><i class="fa fa-linkedin" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.github.com/xWakawakka" target="_blank"
+                  ><i class="fa fa-github-square" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- About -->
+        <section class="about adjust" id="about">
+          <div class="title">
+            <h2>About Me</h2>
+          </div>
+          <div class="content">
+            <div class="textBox">
+              <p>
+                Hello , I’m Rob, a self-taught front end developer from
+                Maryland. I have worked in the public health research field for
+                over 4 years. The public health field has always had a special
+                place in my heart, but having time away from the office, it was
+                time to explore something new.<br /><br />
+                Looking to make a career change, I have always had a passion to
+                pursue a career in the tech industry in some fashion. Since the
+                pandemic started, I have continued to work my full time job
+                remotely. I started learning about UX/UI design, and I have
+                completed a few projects over the past year. While learning
+                about UX design, I learned how having a developer background
+                would be beneficial in the design process. From research I
+                discovered that outside of the traditional path to becoming a
+                web developer, the next best option was to attend a boot camp.
+                Not that I couldn't commit to the time to complete the camp, my
+                issue was I couldn’t afford to pay for the camp along with my
+                student loans and other financial obligations. I did some more
+                research and with the help of many sources, I created an outline
+                to become a self-taught front end developer.<br /><br />
+                Using various teaching websites and resources I started learning
+                how to code. Over the next few months, I used mornings, lunch
+                breaks, nights and any free time I could spare learning how to
+                code. During this time I also created projects with HTML, CSS
+                and vanilla Javascript. Once I became confident in the basics, I
+                started to learn React js and other front end technologies.<br /><br />
+                When I'm not coding, I enjoy watching TV, playing videogames,
+                and discovering local craft beers.
+              </p>
+            </div>
+            <div class="imgBx">
+              <img src="images/Rob (103).jpg" />
+            </div>
+          </div>
+        </section>
+
+        <!-- Services 
+        <section class="services adjust" id="services">
+          <div class="title">
+            <h2>Our Services</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, et
+              numquam.
+            </p>
+          </div>
+          <div class="content">
+            <div class="serviceBox">
+              <img src="icon1.png" />
+              <h2>Web Design</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                nostrum hic, et natus omnis atque, libero consectetur labore.
+              </p>
+            </div>
+            <div class="serviceBox">
+              <img src="icon2.png" />
+              <h2>Web Development</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                nostrum hic, et natus omnis atque, libero consectetur labore.
+              </p>
+            </div>
+            <div class="serviceBox">
+              <img src="icon3.png" />
+              <h2>Android Apps</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                nostrum hic, et natus omnis atque, libero consectetur labore.
+              </p>
+            </div>
+            <div class="serviceBox">
+              <img src="icon4.png" />
+              <h2>Photography</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                nostrum hic, et natus omnis atque, libero consectetur labore.
+              </p>
+            </div>
+            <div class="serviceBox">
+              <img src="icon5.png" />
+              <h2>Content Writing</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                nostrum hic, et natus omnis atque, libero consectetur labore.
+              </p>
+            </div>
+            <div class="serviceBox">
+              <img src="icon6.png" />
+              <h2>Video Editing</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                nostrum hic, et natus omnis atque, libero consectetur labore.
+              </p>
+            </div>
+          </div>
+        </section>
+		-->
+
+        <!-- Projects -->
+        <section class="project adjust" id="project">
+          <div class="title">
+            <h2>Recent Work</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, et
+              numquam.
+            </p>
+          </div>
+          <div class="content">
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="img1.jpg" />
+              </div>
+              <div class="textBx">
+                <h3>Project 01</h3>
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="img2.jpg" />
+              </div>
+              <div class="textBx">
+                <h3>Project 02</h3>
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="img3.jpg" />
+              </div>
+              <div class="textBx">
+                <h3>Project 03</h3>
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="img4.jpg" />
+              </div>
+              <div class="textBx">
+                <h3>Project 04</h3>
+              </div>
+            </div>
+            <!-- extra
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="img5.jpg" />
+              </div>
+              <div class="textBx">
+                <h3>Project 05</h3>
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="img6.jpg" />
+              </div>
+              <div class="textBx">
+                <h3>Project 06</h3>
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="img7.jpg" />
+              </div>
+              <div class="textBx">
+                <h3>Project 07</h3>
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="img8.jpg" />
+              </div>
+              <div class="textBx">
+                <h3>Project 08</h3>
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="img9.jpg" />
+              </div>
+              <div class="textBx">
+                <h3>Project 09</h3>
+              </div>
+            </div>
+			-->
+          </div>
+        </section>
+
+        <!-- testimonials 
+        <section class="tstimonials adjust" id="tstimonials">
+          <div class="title">
+            <h2>Testimonials</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, et
+              numquam.
+            </p>
+          </div>
+          <div class="content">
+            <div class="testimonialsBox">
+              <div class="imgBx">
+                <img src="user1.jpg" />
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                saepe exercitationem itaque iure facere, nemo architecto,
+                eligendi sint dignissimos neque repudiandae? Doloremque eum
+                blanditiis sequi repellendus autem mollitia fugit culpa?
+              </p>
+              <h4>Someone Famouse<br /><span>Website Designer</span></h4>
+            </div>
+            <div class="testimonialsBox">
+              <div class="imgBx">
+                <img src="user2.jpg" />
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                saepe exercitationem itaque iure facere, nemo architecto,
+                eligendi sint dignissimos neque repudiandae? Doloremque eum
+                blanditiis sequi repellendus autem mollitia fugit culpa?
+              </p>
+              <h4>Someone Famouse<br /><span>Website Designer</span></h4>
+            </div>
+            <div class="testimonialsBox">
+              <div class="imgBx">
+                <img src="user3.jpg" />
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                saepe exercitationem itaque iure facere, nemo architecto,
+                eligendi sint dignissimos neque repudiandae? Doloremque eum
+                blanditiis sequi repellendus autem mollitia fugit culpa?
+              </p>
+              <h4>Someone Famouse<br /><span>Website Designer</span></h4>
+            </div>
+            <div class="testimonialsBox">
+              <div class="imgBx">
+                <img src="user1.jpg" />
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                saepe exercitationem itaque iure facere, nemo architecto,
+                eligendi sint dignissimos neque repudiandae? Doloremque eum
+                blanditiis sequi repellendus autem mollitia fugit culpa?
+              </p>
+              <h4>Someone Famouse<br /><span>Website Designer</span></h4>
+            </div>
+          </div>
+        </section>
+		-->
+
+        <!-- Contact -->
+        <section class="contact adjust" id="contact">
+          <div class="title">
+            <h2>Just Say Hi</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, et
+              numquam.
+            </p>
+          </div>
+          <div class="contactForm">
+            <div class="row">
+              <input type="text" name="" placeholder="First Name" />
+              <input type="text" name="" placeholder="Last Name" />
+            </div>
+            <div class="row">
+              <input type="text" name="" placeholder="Email Address" />
+              <input type="text" name="" placeholder="Mobile No." />
+            </div>
+            <div class="row2">
+              <textarea placeholder="Message"></textarea>
+            </div>
+            <div class="row2">
+              <input type="submit" value="Send" />
+            </div>
+          </div>
+        </section>
+        <!-- copyright Text -->
+        <div class="copyright">
+          <p>Copyright © 2021</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let toggle = document.querySelector(".toggle");
+      let topbar = document.querySelector(".topbar");
+      let navigation = document.querySelector(".navigation");
+      let main = document.querySelector(".main");
+      toggle.onclick = function () {
+        toggle.classList.toggle("active");
+        topbar.classList.toggle("active");
+        navigation.classList.toggle("active");
+        main.classList.toggle("active");
+      };
+
+      // now, we fix menu active class issue for mobile devices
+      function toggleMenu() {
+        let navigation = document.querySelector(".navigation");
+        let main = document.querySelector(".main");
+        navigation.classList.remove("active");
+        main.classList.remove("active");
+      }
+    </script>
+  </body>
+</html>
